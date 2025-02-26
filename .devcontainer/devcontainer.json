@@ -1,0 +1,9 @@
+{
+  "name": "Flutter DevContainer",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/devcontainers/features/flutter:1": {}
+  },
+  "postCreateCommand": "bash .devcontainer/setup.sh",
+  "remoteUser": "codespace"
+}
